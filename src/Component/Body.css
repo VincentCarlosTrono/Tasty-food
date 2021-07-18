@@ -1,0 +1,35 @@
+.main-body {
+  margin: 120px 0;
+  display: flex;
+  justify-content: center;
+  color: rgb(44, 42, 42);
+}
+.body-text {
+  gap: 650px;
+  padding-top: 100px;
+}
+.body-text h1 {
+  font-size: 56px;
+  font-weight: 600;
+  color: rgb(6, 156, 84);
+}
+.body-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.body-img img {
+  width: 650px;
+  padding: 80px;
+}
+.body-text button {
+  padding: 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(6, 156, 84);
+  color: white;
+  font-size: 1rem;
+}
+.body-text button:hover {
+  background-color: rgb(14, 114, 66);
+  cursor: pointer;
+}

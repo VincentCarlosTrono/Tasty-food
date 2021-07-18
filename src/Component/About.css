@@ -1,0 +1,30 @@
+.main-about {
+  display: flex;
+  padding: 30px;
+  gap: 90px;
+  justify-content: center;
+  color: rgb(58, 54, 54);
+}
+.about-image img {
+  width: 400px;
+  border-radius: 20px;
+}
+.about-us h3 {
+  font-weight: 600;
+  color: rgb(6, 156, 84);
+}
+.about-us p {
+  color: rgb(77, 72, 72);
+}
+.about-us button {
+  padding: 10px;
+  background-color: rgb(6, 156, 84);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.about-us button:hover {
+  background-color: rgb(4, 114, 61);
+  cursor: pointer;
+}
