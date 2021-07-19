@@ -6,6 +6,8 @@ import About from "./Component/About";
 import Offering from "./Component/Offering";
 import Additionals from "./Component/Additionals";
 import Application from "./Component/Application";
+import Talk from "./Component/Talk";
+import Footer from "./Component/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Offering />
         <Additionals />
         <Application />
+        <Talk />
+        <Footer />
       </header>
     </div>
   );

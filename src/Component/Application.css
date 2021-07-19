@@ -11,6 +11,11 @@
   width: 120px;
   margin-right: 10px;
 }
+.app-image img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
 .text p {
   font-weight: 300;
   max-width: 400px;
