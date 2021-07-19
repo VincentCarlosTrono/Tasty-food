@@ -3,13 +3,13 @@
 }
 .main-footer h1 {
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 700;
   padding-bottom: 0.1rem;
   color: rgb(6, 156, 84);
 }
 .main-footer p {
   padding: 0.0001rem 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .list ul {
   display: flex;
@@ -26,6 +26,29 @@
   padding: 0.2rem 4.5rem;
 }
 .list-in ul {
-  display: flex;
   gap: 2rem;
+}
+.service-list {
+  list-style: none;
+}
+.socmed-account {
+  display: flex;
+  gap: 4.5rem;
+}
+.service {
+  text-align: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+.services-needs {
+  font-size: 1rem;
+}
+.services-needs:hover {
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+  color: rgb(146, 146, 146);
+  font-size: 0.002rem;
+  font-weight: 300;
 }

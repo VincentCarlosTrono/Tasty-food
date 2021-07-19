@@ -15,7 +15,7 @@ export const Body = () => {
           <button>View Menu</button>
         </div>
         <div className="body-img">
-          <img src={home} />
+          <img src={home} alt="this is a home" />
         </div>
       </div>
     </div>

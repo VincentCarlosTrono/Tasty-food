@@ -3,25 +3,22 @@ import "./Offering.css";
 import dish from "../Media/dish.svg";
 import pizza from "../Media/pizza.svg";
 import truck from "../Media/truck.svg";
-import plate1 from "../Media/plate1.png";
-import plate2 from "../Media/plate2.png";
-import plate3 from "../Media/plate3.png";
 
 const Services = [
   {
     image: dish,
-    h1: "Excellent Food",
-    p: "We offer our clients excellent quality services for many years with the best and delicious food in the city",
+    title: "Excellent Food",
+    text: "We offer our clients excellent quality services for many years with the best and delicious food in the city",
   },
   {
     image: pizza,
-    h1: "Fast food",
-    p: "We offer our clients excellent quality services for many years with the best and delicious food in the city",
+    title: "Fast food",
+    text: "We offer our clients excellent quality services for many years with the best and delicious food in the city",
   },
   {
     image: truck,
-    h1: "Delivery",
-    p: "We offer our clients excellent quality services for many years with the best and delicious food in the city",
+    title: "Delivery",
+    text: "We offer our clients excellent quality services for many years with the best and delicious food in the city",
   },
 ];
 
@@ -37,13 +34,14 @@ export const Offering = () => {
           {Services.map((Service) => (
             <div>
               <div className="service-offer">
-                <img src={Service.image} />
+                <img src={Service.image} alt="offer logo" />
               </div>
-              <div className="h1">{Service.h1}</div> <br />
-              {Service.p}
+              <div className="h1">{Service.title}</div> <br />
+              {Service.text}
             </div>
           ))}
         </div>
+        <box-icon type="solid" name="virus"></box-icon>
       </div>
     </div>
   );

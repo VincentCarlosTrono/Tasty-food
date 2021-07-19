@@ -7,7 +7,7 @@ export const About = () => {
     <div className="grid-container" id="About">
       <div className="main-about container">
         <div className="about-image">
-          <img src={about} />
+          <img src={about} alt="about" />
         </div>
         <div className="about-us">
           <h3>About Us</h3>

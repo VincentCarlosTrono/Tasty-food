@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./App.css";
 import Header from "./Component/Header";
 import Body from "./Component/Body";
@@ -8,10 +8,12 @@ import Additionals from "./Component/Additionals";
 import Application from "./Component/Application";
 import Talk from "./Component/Talk";
 import Footer from "./Component/Footer";
+import { AppContext } from "./ContextAPI/appContext";
 
 function App() {
+  const { darkmode, setDarkmode } = useContext(AppContext);
   return (
-    <div className="App">
+    <div className={darkmode ? "dark" : "app"}>
       <header className="App-header">
         <Header />
         <Body />
