@@ -18,7 +18,6 @@ export const Header = () => {
               <a href="#Services">SERVICES</a>
             </li>
             <li>
-              {" "}
               <a href="#Menu">MENU</a>
             </li>
             <li>
