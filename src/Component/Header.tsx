@@ -24,7 +24,6 @@ export const Header = () => {
               <a href="#Contact">CONTACT US</a>
             </li>
             <div className="header-icon">
-              {/* @ts-ignore */}
               <box-icon type="solid" name="moon"></box-icon>
             </div>
           </ul>

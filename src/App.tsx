@@ -8,6 +8,7 @@ import Additionals from "./Component/Additionals";
 import Application from "./Component/Application";
 import Talk from "./Component/Talk";
 import Footer from "./Component/Footer";
+import Copyrgiht from "./Component/Copyright";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Application />
         <Talk />
         <Footer />
+        <Copyrgiht />
       </header>
     </div>
   );

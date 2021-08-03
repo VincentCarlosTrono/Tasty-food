@@ -4,14 +4,14 @@ import "./Footer.css";
 const footerLink = [
   {
     title: "Services",
-    sub1: "Delivery",
-    sub2: "Pricing",
+    sub1: <a href="#Services">Delivery</a>,
+    sub2: <a href="#Menu">Pricing</a>,
     sub3: "Fast Food",
     sub4: "Reserve your spot",
   },
   {
     title: "Information",
-    sub1: "Contact us",
+    sub1: <a href="#Services">Contact us</a>,
     sub2: "Privacy policy",
     sub3: "Fast Food",
     sub4: "Terms of services",
