@@ -38,7 +38,7 @@ export const Additionals = () => {
             {Dishes.map((dish) => (
               <div className="cards">
                 <div className="service-offer">
-                  <img src={dish.image} />
+                  <img src={dish.image} alt="dish" />
                 </div>
                 <div className="main-dishes">
                   <div className="title">{dish.name}</div>

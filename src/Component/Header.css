@@ -32,10 +32,15 @@
 .header-icon:hover {
   cursor: pointer;
 }
+
 .h-button {
   background-color: white;
   border: none;
 }
 .h-button:hover {
   cursor: pointer;
+
+.dark {
+  background-color: rgb(29, 37, 33);
+  color: white;
 }
