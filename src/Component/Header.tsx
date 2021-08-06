@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
 
 export const Header = () => {
+  const [isLoggedin, setIsLoggedin] = useState<Boolean>(false);
   return (
     <div className="header grid-container">
       <div className="header-line container">
@@ -23,9 +24,21 @@ export const Header = () => {
             <li>
               <a href="#Contact">CONTACT US</a>
             </li>
-            <div className="header-icon">
-              <box-icon type="solid" name="moon"></box-icon>
-            </div>
+            <button
+              onClick={() => setIsLoggedin(!isLoggedin)}
+              className="h-button"
+            >
+              {isLoggedin ? (
+                <box-icon name="sun"></box-icon>
+              ) : (
+                <box-icon
+                  type="solid"
+                  name="moon"
+                  className="dark-theme"
+                ></box-icon>
+              )}
+              <div className="header-icon"></div>
+            </button>
           </ul>
         </div>
       </div>

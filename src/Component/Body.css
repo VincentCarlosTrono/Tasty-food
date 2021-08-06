@@ -2,7 +2,7 @@
   margin: 120px 0;
   display: flex;
   justify-content: center;
-  color: rgb(44, 42, 42);
+  color: black;
 }
 .body-text {
   gap: 650px;
@@ -16,6 +16,7 @@
 .body-text h2 {
   font-size: 2rem;
   font-weight: 600;
+  color: rgb(73, 71, 71);
 }
 .body-img img {
   width: 650px;
