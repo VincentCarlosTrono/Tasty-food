@@ -8,25 +8,20 @@ import Additionals from "./Component/Additionals";
 import Application from "./Component/Application";
 import Talk from "./Component/Talk";
 import Footer from "./Component/Footer";
-
 import Copyrgiht from "./Component/Copyright";
-import { AppContext } from "./ContextAPI/appContext";
 
 function App() {
-  const { darkmode, setDarkmode } = useContext(AppContext);
   return (
-    <div className={darkmode ? "dark" : "app"}>
-      <header className="App-header">
-        <Header />
-        <Body />
-        <About />
-        <Offering />
-        <Additionals />
-        <Application />
-        <Talk />
-        <Footer />
-        <Copyrgiht />
-      </header>
+    <div>
+      <Header />
+      <Body />
+      <About />
+      <Offering />
+      <Additionals />
+      <Application />
+      <Talk />
+      <Footer />
+      <Copyrgiht />
     </div>
   );
 }

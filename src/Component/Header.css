@@ -39,8 +39,4 @@
 }
 .h-button:hover {
   cursor: pointer;
-
-.dark {
-  background-color: rgb(29, 37, 33);
-  color: white;
 }

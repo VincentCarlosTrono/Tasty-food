@@ -1,4 +1,3 @@
-
 import React, { useContext, useState } from "react";
 import { AppContext } from "../ContextAPI/appContext";
 import "./Header.css";
@@ -6,14 +5,11 @@ import "./Header.css";
 export const Header = () => {
   const [isLoggedin, setIsLoggedin] = useState<Boolean>(false);
 
-
-export const Header = () => {
   const { darkmode, setDarkmode } = useContext(AppContext);
   const handleDarkmode = () => {
     setDarkmode(!darkmode);
     console.log(darkmode);
   };
-
 
   return (
     <div className={`header grid-container ${darkmode && "dark"}`}>
@@ -52,18 +48,10 @@ export const Header = () => {
               )}
               <div className="header-icon"></div>
             </button>
-            <div className="header-icon" onClick={handleDarkmode}>
-              {darkmode ? (
-                <box-icon type="solid" name="sun" color="white"></box-icon>
-              ) : (
-                <box-icon type="solid" name="moon"></box-icon>
-              )}
-            </div>
           </ul>
         </div>
       </div>
     </div>
-    
-  )
+  );
 };
 export default Header;
