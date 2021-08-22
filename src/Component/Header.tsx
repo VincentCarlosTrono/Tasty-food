@@ -8,7 +8,6 @@ export const Header = () => {
   const { darkmode, setDarkmode } = useContext(AppContext);
   const handleDarkmode = () => {
     setDarkmode(!darkmode);
-    console.log(darkmode);
   };
 
   return (
